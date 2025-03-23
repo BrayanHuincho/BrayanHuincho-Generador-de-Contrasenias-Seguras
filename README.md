@@ -1,6 +1,6 @@
 # Generador de Contraseñas Seguras
 
-Puedes probar y usar el generador de contraseñas en: [Generador de Contraseñas Seguras](https://github.com/BrayanHuincho/Generador-de-Contraseñas-Seguras)
+Puedes probar y usar el generador de contraseñas en: [Generador de Contraseñas Seguras](https://brayanhuincho.github.io/BrayanHuincho-Generador-de-Contrasenias-Seguras/)
 
 ## Características Principales
 
