@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="theme-toggle" id="theme-toggle">
+                <div class="toggle-switch">
+                    <div class="toggle-knob"></div>
+                </div>
+            </div>
+            
+            <h1>Generador de Contraseñas Seguro</h1>
+
+            <div class="nombre-contrasena-container">
+                <label for="nombre-contrasena">Palabra o frase a incluir:</label>
+                <input type="text" id="nombre-contrasena">
+                <small id="validation-message" class="validation-message"></small>
+            </div>            
+
+            <div class="configuracion">
+                <div class="columna">
+                    <label for="longitud">Longitud de la contraseña</label>
+                    <div class="longitud-config">
+                        <input type="number" id="longitud" min="4" max="50" value="12">
+                        <input type="range" id="slider" min="4" max="50" value="12">
+                    </div>
+                </div>
+                <div class="columna">
+                    <label><input type="radio" name="facilidad" id="facil-decir">Fácil de decir 
+                        <div class="tooltip">
+                            <i class="fas fa-info-circle"></i>
+                            <span class="tooltip-text">Evite números y caracteres especiales</span>
+                        </div>
+                    </label>
+                    <label><input type="radio" name="facilidad" id="facil-leer">Fácil de leer 
+                        <div class="tooltip">
+                            <i class="fas fa-info-circle"></i>
+                            <span class="tooltip-text">Evite caracteres ambiguos como l, 1, O y 0</span>
+                        </div>
+                    </label>
+                    <label><input type="radio" name="facilidad" id="todos-caracteres" checked>Todos los caracteres 
+                        <div class="tooltip">
+                            <i class="fas fa-info-circle"></i>
+                            <span class="tooltip-text">Cualquier combinación de caracteres como !, 7, h, K y l1</span>
+                        </div>
+                    </label>                      
+                </div>
+                <div class="columna">
+                    <label><input type="checkbox" id="mayusculas" checked>Mayúsculas</label>
+                    <label><input type="checkbox" id="minusculas" checked>Minúsculas</label>
+                    <label><input type="checkbox" id="numeros">Números</label>
+                    <label><input type="checkbox" id="simbolos">Símbolos</label>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button id="generar">Generar Contraseña</button>
+                <div class="output-container">
+                    <div id="password-strength" style="display: none;"></div> 
+                    <p id="contraseña">Aquí aparecerá tu contraseña generada</p>
+                    <i class="fas fa-copy" id="icono-copiar"></i>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
