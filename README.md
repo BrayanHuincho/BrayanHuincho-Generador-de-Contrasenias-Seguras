@@ -1,6 +1,6 @@
 # Generador de Contraseñas Seguras
 
-Puedes probar y usar el generador de contraseñas en: [Generador de Contraseñas Seguras](https://brayanhuincho.github.io/BrayanHuincho-Generador-de-Contrasenias-Seguras/)
+Puedes probar y usar el generador de contraseñas en: [Generador de Contraseñas Seguras](https://brayanhuincho.github.io/Generador-de-Contrasenias-Seguras/)
 
 ## Características Principales
 
@@ -12,10 +12,9 @@ Puedes probar y usar el generador de contraseñas en: [Generador de Contraseñas
 
 ## Tecnologías Utilizadas
 
-- **Frontend**:
-  - **HTML**: Estructura básica de la página web.
-  - **CSS**: Estilos visuales y diseño responsivo.
-  - **JavaScript**: Lógica para generar contraseñas seguras y personalizadas, y para manejar la interacción con el usuario.
+  - **HTML**
+  - **CSS**
+  - **JavaScript**
 
 ## Instalación
 
