@@ -2,6 +2,12 @@
 
 Puedes probar y usar el generador de contraseñas en: [Generador de Contraseñas Seguras](https://brayanhuincho.github.io/Generador-de-Contrasenias-Seguras/)
 
+<p align="center">
+  <a href="https://brayanhuincho.github.io/Generador-de-Contrasenias-Seguras/">
+    <img src="foto.jpg" alt="Captura del Generador de Contraseñas" width="600">
+  </a>
+</p>
+
 ## Características Principales
 
 - **Generación de Contraseñas Seguras**: Permite crear contraseñas aleatorias, combinando mayúsculas, minúsculas, números y símbolos según tus necesidades.
